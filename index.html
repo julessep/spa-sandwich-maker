@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandwich Maker</title>
+</head>
+<body>
+	<h1>Sandwich Maker!</h1>
+	<section class="bread">
+		<h3>Choose your bread</h3>
+		<select id="bread-chooser" name="bread">
+			<option>Select</option>
+			<option>Wheat</option>
+			<option>Sourdough</option>
+			<option>Rye</option>
+			<option>White</option>
+		</select>
+	</section>
+	<section class="meat">
+		<h3>Choose your meat</h3>
+		<select id="meat-chooser" name="meat">
+			<option>Select</option>
+			<option>Chicken</option>
+			<option>Turkey</option>
+			<option>Ham</option>
+			<option>Bacon</option>
+			<option>Beef</option>
+		</select>
+	</section>
+	<section class="cheese">
+		<h3>Choose your cheese</h3>
+		<select id="cheese-chooser" name="cheese">
+			<option>Select</option>
+			<option>Provolone</option>
+			<option>American</option>
+			<option>Cheddar</option>
+			<option>Swiss</option>
+			<option>Vegan</option>
+		</select>
+	</section>
+	<section class="condiments">
+		<h3>Choose your condiments</h3>
+		<select id="condiments-chooser" name="condiments">
+			<option>Select</option>
+			<option>Mayo</option>
+			<option>Mustard</option>
+			<option>Oil</option>
+			<option>Vinegar</option>
+			<option>Salsa</option>
+		</select>
+	</section>
+	<section class="veggies">
+		<h3>Choose your veggies</h3>
+		<select id="veggies-chooser" name="veggies">
+			<option>Select</option>
+			<option>Lettuce</option>
+			<option>Tomato</option>
+			<option>Onion</option>
+			<option>Pickle</option>
+			<option>Olive</option>
+		</select>
+	</section>
+	
+	<button id="total-button">Get Total</button>
+
+	<div id="price-output"></div>
+	
+<script src="javascripts/SandwichMaker.js"></script>
+<script src="javascripts/meat.js"></script>
+<script src="javascripts/veggies.js"></script>
+<script src="javascripts/condiments.js"></script>
+<script src="javascripts/cheese.js"></script>
+<script src="javascripts/bread.js"></script>
+<script src="javascripts/DOMhandler.js"></script>
+</body>
+</html>
